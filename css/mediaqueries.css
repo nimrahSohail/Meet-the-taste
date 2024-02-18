@@ -1,0 +1,92 @@
+/* CSS for mobile and smaller screen */
+@media screen and (max-width:768) {
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .box-3{
+        width: 95%;
+        
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+    
+    h1{
+        margin-bottom: 10%;
+    }
+    
+}
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+    .btn-bg{
+        background-color: var(--a-hover-color);
+        border-radius: 3px;
+        padding: 1px;
+        font-size: 6px;
+    }
+    .box-3 h3{
+        font-size: 7px;
+    }
+    h3{
+        font-size: 5px;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+    .food-menu-box{
+        width: 89%;
+        margin-bottom: 5%;
+        border-radius: 0;
+        padding: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .food-search legend{
+        font-size: 14px;
+    }
+    .food-search h1{
+        font-size: 18px;
+    }
+    .food-search h3{
+        font-size: 8px;
+    }
+    
+}
